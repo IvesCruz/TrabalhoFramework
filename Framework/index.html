@@ -1,95 +1,83 @@
-<!DOCTYPE HTML>
+
+<!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<title> Formulário </title>
-		<link rel = "stylesheet" type="text/css" href="estilo.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	</head>
-	<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FRANWORK</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">FRANWORK</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Senha" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Entrar</button>
+            <button type="submit" class="btn btn-success"><a href="file:///C:/Users/IvesCruz/Desktop/TrabalhoFramework/Framework/cadastro.html">Cadastro</a></button>
+          </form>
+        </div>
+      </div>
+    </nav>
 
-			
-				
-			</select> 
-			<label for="cCid"> CIDADE: </label> <select name="tCid" id="cCid">
-				<option>Salvador</option>
-				<option>Lauro de Freitas</option>
-				<option>Camaçari</option>
-				<option>Simões Filho</option>
-			</select>
-			</p>
-			<p><label for="cObj"> OBSERVAÇÕES: </label> <textarea name="tObj" id="cObj" cols="45" rows="5" placeholder="Observações Gerais do Aluno"></textarea></p>
-			<input type="submit" value="Enviar">
-		</fieldset>
-		</form>
-
-<div class="container">
-<form>
-  <div class="form-group">
-    <label class="control-label col-sm" for="email">Nome Completo:</label>
-    <input type="email" class="form-control" id="email" placeholder="Nome Completo">
-  </div>		
-  <div class="form-group">
-    <label class="control-label col-sm" for="email">Email:</label>
-    <input type="email" class="form-control" id="email" placeholder="Enter email">
-  </div>
-  <div class="form-group">
-    <label class="control-label col-sm" for="email">Data de Nascimento: </label><input type="date" name="tNasc" id="cNasc" class="form-control">
-  </div>
-  <div class="form-group">
-    <label class="control-label col-sm" for="email">Sexo:</label>
-    <input type="radio" name="tSexo" id="cMasc"/> <label for="cMasc">Masculino</label> 
-	<input type="radio" name="tSexo" id="cFem"/> <label for="cFem">Feminino</label> 
-  </div>
-  <div class="form-group">
-    <label class="control-label col-sm" for="curso">Curso:</label>
-    <input type="curso" class="form-control" id="curso" placeholder="Curso">
-  </div>
-  <div class="form-group">
-  	<label class="control-label col-sm" for="turn">Turno:</label>
-    <input type="radio" name="tTurno" id="cMaT"/> <label for="cMaT"> Matutino </label> 
-	<input type="radio" name="tTurno" id="cVes"/> <label for="cVes"> Vespertino </label> 
-	<input type="radio" name="tTurno" id="cNot"/> <label for="cNot"> Noturno </label> 
-  </div>
-
-  <div class="form-group">
-    <label class="control-label col-sm" for="pwd">Rua:</label>
-    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-  </div>
-  <div class="form-group">
-    <label class="control-label col-sm" for="pwd">Bairro:</label>
-    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-  </div>
-  <div class="form-group">
-    <label class="control-label col-sm" for="pwd">Número:</label>
-    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-  </div>
-  <div class="form-group">
-    <label class="control-label col-sm" for="pwd">Complemento:</label>
-    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-  </div>
-  <div class="form-group">
-    <label class="control-label col-sm" for="pwd" >Estado:</label>
-    <select name="tCid" id="cCid" class="form-control"> <option>Bahia</option> </select>
-  </div>
-
-  <div class="form-group">
-    <label class="control-label col-sm" for="pwd">Senha:</label>
-    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-  </div>
-  <div class="form-group"> 
-    <div class="control-label col-sm-1">
-      <div class="checkbox">
-        <label><input type="checkbox">Lembrar</label>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Descrição dos cursos</h1>
       </div>
     </div>
-  </div>
-  <div class="form-group"> 
-    <div class="control-label col-sm-1">
-      <button type="submit" class="btn btn-default">Submit</button>
-    </div>
-  </div>
-</form>
-</div>
-	</body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <dt>TÉCNICO EM ALIMENTOS</dt>
+          <dd>- Descrição: Coordenar o desenvolvimento dos processos produtivos de alimentos seguros, avaliar a qualidade das matérias-primas, dos insumos, dos processos e dos produtos alimentícios, e, ainda, implementar sistemas de gestão, de acordo com normas e legislações sanitárias, ambientais, de saúde, higiene e segurança no trabalho, e da qualidade.</dd>
+          <dd>- Carga horária: 1.200 horas</dd> <br/>
+        </div>
+        <div class="col-md-4">
+          <dt>TÉCNICO EM AUTOMAÇÃO INDUSTRIAL</dt>
+          <dd>- Descrição: Manter, implementar equipamentos e dispositivos e atuar no desenvolvimento de sistemas de controle e automação, respeitando procedimentos e normas técnicas, de qualidade, de saúde e segurança e de meio ambiente.</dd>
+          <dd>- Carga horária: 1.360 horas</dd> <br/>
+       </div>
+        <div class="col-md-4">
+          <dt>TÉCNICO EM CONSTRUÇÃO NAVAL</dt>
+          <dd>- Descrição: Coordenar a execução dos processos de construção e reparo de estruturas navais, de fabricação e instalação de redes de tubulação e de instalação e manutenção de equipamentos realizando inspeções, testes e ensaios de acordo com normas técnicas, de segurança, de qualidade e ambientais.</dd>
+          <dd>- Carga horária: 1.280 horas</dd> <br/>
+        </div>
+      </div>
+
+      <div class = "container">
+        <div class = "row">
+          <div class= "col-md-4">
+            <dt>TÉCNICO EM EDIFICAÇÕES</dt>
+            <dd>-Descrição: Desenvolver projetos, supervisionar a execução de edificações e planejar obras, considerando as normas técnicas, de segurança e saúde do trabalho e legislações específicas, assegurando as condições de qualidade, produtividade e meio ambiente, dentro dos limites de suas atribuições legais.</dd>
+            <dd>- Carga horária: 1.200 horas.</dd> <br/>
+          </div>
+            <div class = "col-md-4">
+              <dt>TÉCNICO EM ELETROELETRÔNICA</dt>
+              <dd>-Descrição: Desenvolver, instalar e manter sistemas eletroeletrônicos de acordo com procedimentos e normas técnicas, ambientais, de qualidade, de saúde e segurança no trabalho.</dd>
+              <dd>-Carga horária: 1.200 horas.</dd> <br/>
+            </div>
+            <div class = "col-md-4">
+              <dt>TÉCNICO EM LOGISTICA</dt>
+            <dd>- Descrição: Planejar, executar e controlar as operações dos processos logísticos, atendendo a suprimentos, produção e distribuição de bens e serviços, em conformidade com as normas de saúde, higiene, meio ambiente e segurança e legislação vigente.</dd>
+           <dd>- Carga horária: 1.200 horas.</dd> <br/>
+            </div>
+        </div>
+      </div>   
+    </div> 
+  </body>
 </html>
